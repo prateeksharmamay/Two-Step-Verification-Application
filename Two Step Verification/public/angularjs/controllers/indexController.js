@@ -54,13 +54,13 @@ index.controller('indexController', function($scope, $http, $state, $anchorScrol
 				$scope.userId = data.id;
 			}
 			else{
-				$scope.disableVerifyUser = true;
+				/*$scope.disableVerifyUser = true;
 				console.log("Verification Successful.");
 				$scope.user = data.user;
 				$scope.error4 = false;
 				$scope.msg = "Welcome "+ $scope.user.fName + " ! Login to continue.";
 				$scope.error3 = true;
-				$('#userVerificationModal3').modal('hide');
+				$('#userVerificationModal3').modal('hide');*/
 			}
 		}).error(function(error) {
 			$scope.msg = error;
@@ -261,13 +261,13 @@ index.controller('indexController', function($scope, $http, $state, $anchorScrol
 				$scope.userId = data.id;
 			}
 			else{
-				$scope.disableVerifyUser = true;
+				/*$scope.disableVerifyUser = true;
 				console.log("Verification Successful.");
 				$scope.user = data.user;
 				$scope.error5 = false;
 				$scope.msg = "Welcome "+$scope.user.fName + " ! You are Looged In.";
 				$scope.error3 = false;
-				$('#userVerificationModal4').modal('hide');
+				$('#userVerificationModal4').modal('hide');*/
 			}
 		}).error(function(error) {
 			$scope.msg = error;
