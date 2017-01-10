@@ -94,5 +94,5 @@ This makes application use AngularJS and traditional HTML. This will be easier f
 P.S: 
 1) For Front End, refer following functions in public->angularjs->controllers->indexController.js:
 Signup: $scope.resendCode , $scope.verifyUser, $scope.registerUser
-Signin: $scope.resendLoginCode , $scope.verifyUserLogin, $scope.signin
+Signin: $scope.resendLoginCode , $scope.verifyUserLogin, $scope.signin<br>
 2) You may reuse backend code in routes without any modification by just sending the required values in the service call.
