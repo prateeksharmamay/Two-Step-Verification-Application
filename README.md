@@ -91,6 +91,8 @@ This makes application use AngularJS and traditional HTML. This will be easier f
 				}
 	7) If the verification is successful, you can redirect the control to your desired page.
 	
-P.S: For Front End, refer following functions in public->angularjs->controllers->indexController.js:
+P.S: 
+1) For Front End, refer following functions in public->angularjs->controllers->indexController.js:
 Signup: $scope.resendCode , $scope.verifyUser, $scope.registerUser
 Signin: $scope.resendLoginCode , $scope.verifyUserLogin, $scope.signin
+2) You may reuse backend code in routes without any modification by just sending the required values in the service call.
