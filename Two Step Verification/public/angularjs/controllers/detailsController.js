@@ -19,8 +19,8 @@ index.controller('detailsController', function($scope, $http, $state, $anchorScr
 			method : "POST",
 			url : '/users/resend',
 			data : {
-				"id" : $scope.userId,
-				"code" : $scope.code
+				"id" : $scope.userId
+				//,"code" : $scope.code
 			}
 		}).success(function(data) {
 			//checking the response data for statusCode
@@ -221,8 +221,8 @@ index.controller('detailsController', function($scope, $http, $state, $anchorScr
 			method : "POST",
 			url : '/users/resend',
 			data : {
-				"id" : $scope.userId2,
-				"code" : $scope.code2
+				"id" : $scope.userId2
+				//,"code" : $scope.code2
 			}
 		}).success(function(data) {
 			//checking the response data for statusCode

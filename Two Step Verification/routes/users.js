@@ -88,7 +88,7 @@ exports.showVerify = function(request, response) {
 exports.resend = function(request, response) {
     // Load user model
 	var id = request.param("id");
-    var code = request.param("code");
+    //var code = request.param("code");
     console.log("id:"+id);
     User.findById(id, function(err, user) {
         if (err || !user) {
